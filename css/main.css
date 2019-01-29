@@ -123,6 +123,7 @@ html, body {
 }
 .panel{
   border-style: none;
+  color: #F9F9F9;
 }
 .panel-body {
   padding-top: -10px;
@@ -179,6 +180,7 @@ html, body {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
+  color: #F9F9F9;
 }
 
 /* Footer  */
