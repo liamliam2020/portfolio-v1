@@ -106,6 +106,7 @@ html, body {
   text-align: left;
   line-height: 24px;
   font-size: 22px;
+  background-color: #FF4C4C; /* trying to fix green text*/
 }
 .panel-default h5 {
   text-align: left;
@@ -123,7 +124,7 @@ html, body {
 }
 .panel{
   border-style: none;
-  color: #F9F9F9;
+  background-color: #F9F9F9;
 }
 .panel-body {
   padding-top: -10px;
@@ -180,7 +181,7 @@ html, body {
   text-align: left;
   line-height: 30px;
   font-size: 18px;
-  color: #F9F9F9;
+  background-color: #F9F9F9;
 }
 
 /* Footer  */
