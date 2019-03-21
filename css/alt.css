@@ -36,9 +36,9 @@ html, body {
 
 /* Custom page CSS */
 .container {
-  width: auto;
-  max-width: 800px;
-  text-align: center;
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container .text-muted {
   margin: 20px 0;
