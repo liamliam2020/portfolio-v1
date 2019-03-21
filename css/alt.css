@@ -68,7 +68,7 @@
 	}
 
 	body {
-		background: grey;
+		background: #424242;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -85,7 +85,7 @@
 /* Type */
 
 	body {
-		background-color: grey;
+		background-color: #424242;
 		color: #777;
 	}
 
@@ -1368,7 +1368,7 @@
 		}
 
 	#header {
-		background: #07090c;
+		background: #424242;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -1568,9 +1568,8 @@
 
 		#banner p {
 			color: #fff;
-			font-size: 1.5em;
-			margin-bottom: 1.75em;
-			text-transform: uppercase;
+			font-size: 1em;
+			margin-bottom: 1em;
 		}
 
 		#banner .icon {
