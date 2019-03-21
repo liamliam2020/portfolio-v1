@@ -68,7 +68,7 @@
 	}
 
 	body {
-		background: #424242;
+		background: #393939;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -85,7 +85,7 @@
 /* Type */
 
 	body {
-		background-color: #424242;
+		background-color: #393939;
 		color: #777;
 	}
 
@@ -837,7 +837,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #EEE;
+			background-color: #4c4c4c;
 			color: #777;
 		}
 
@@ -862,7 +862,7 @@
 			}
 
 			.wrapper.style1 code {
-				background: #fff;
+				background: #4c4c4c;
 				border-color: rgba(144, 144, 144, 0.25);
 			}
 
@@ -875,7 +875,7 @@
 			}
 
 			.wrapper.style1 .feature {
-				background-color: #fff;
+				background-color: #4c4c4c;
 			}
 
 			.wrapper.style1 label {
@@ -887,7 +887,7 @@
 			.wrapper.style1 input[type="email"],
 			.wrapper.style1 select,
 			.wrapper.style1 textarea {
-				background-color: #fff;
+				background-color: #4c4c4c;
 				border-color: rgba(144, 144, 144, 0.25);
 				color: inherit;
 			}
@@ -903,30 +903,6 @@
 
 			.wrapper.style1 .select-wrapper:before {
 				color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 input[type="checkbox"] + label,
-			.wrapper.style1 input[type="radio"] + label {
-				color: #777;
-			}
-
-				.wrapper.style1 input[type="checkbox"] + label:before,
-				.wrapper.style1 input[type="radio"] + label:before {
-					background-color: #fff;
-					border-color: rgba(144, 144, 144, 0.25);
-				}
-
-			.wrapper.style1 input[type="checkbox"]:checked + label:before,
-			.wrapper.style1 input[type="radio"]:checked + label:before {
-				background-color: #fff;
-				border-color: #51BAA4;
-				color: #555;
-			}
-
-			.wrapper.style1 input[type="checkbox"]:focus + label:before,
-			.wrapper.style1 input[type="radio"]:focus + label:before {
-				border-color: #51BAA4;
-				box-shadow: 0 0 0 1px #51BAA4;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -1072,7 +1048,7 @@
 					}
 
 		.wrapper.style3 {
-			background-color: #1E2832;
+			background-color: #4c4c4c;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
 			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
@@ -1368,7 +1344,7 @@
 		}
 
 	#header {
-		background: #424242;
+		background: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		cursor: default;
 		height: 3.25em;
@@ -1495,7 +1471,7 @@
 
 	#banner {
 		padding: 8em 0 6em 0;
-		background-color: #1E2832;
+		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
 		background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("/img/banner.jpg");
@@ -1678,7 +1654,7 @@
 /* Footer */
 
 	#footer {
-		background-color: #1E2832;
+		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
