@@ -6,6 +6,7 @@
 	Retrospect by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+	Updated and Simplified for use by Liam Rethore
 */
 
 /* Reset */
@@ -855,6 +856,7 @@
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #555;
+				text-align: center;
 			}
 
 			.wrapper.style1 blockquote {
@@ -969,6 +971,7 @@
 				background-color: #555;
 				box-shadow: none;
 				color: #EEE !important;
+				margin: 0 auto;
 			}
 
 				.wrapper.style1 input[type="submit"].icon:before,
@@ -1051,7 +1054,7 @@
 			background-color: #4c4c4c;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("images/overlay.png"), url("../../images/pic11.jpg");
+			background-image: url("img/banner.jpg"), url("../../images/pic11.jpg"); /* not sure what second link does*/
 			background-size: cover;
 		}
 
@@ -1069,6 +1072,7 @@
 
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #fff;
+				text-align: center;
 			}
 
 			.wrapper.style3 blockquote {
@@ -1207,6 +1211,7 @@
 				background-color: #fff;
 				box-shadow: none;
 				color: #1E2832 !important;
+				margin: 0 auto;
 			}
 
 				.wrapper.style3 input[type="submit"].icon:before,
@@ -1470,7 +1475,7 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 6em 0;
+		padding: 8em 0 2em 0;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
