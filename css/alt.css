@@ -671,6 +671,7 @@
 		button.small,
 		.button.small {
 			font-size: 0.8em;
+			margin: 0 auto;
 		}
 
 		input[type="submit"].big,
@@ -1054,9 +1055,9 @@
 
 		.wrapper.style3 {
 			background-color: #4c4c4c;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(255, 255, 255, 0.5);
 			background-attachment: fixed;
-			background-image: url("/img/banner.jpg");
+			background-image: url("/img/bannerBottom.jpg");
 			background-size: cover;
 		}
 
