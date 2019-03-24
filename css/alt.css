@@ -1006,6 +1006,7 @@
 					background-color: #51BAA4;
 					box-shadow: none;
 					color: #fff !important;
+					margin: 0 auto;
 				}
 
 					.wrapper.style1 input[type="submit"].special:hover,
@@ -1032,6 +1033,7 @@
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px #51BAA4;
 					color: #51BAA4 !important;
+					margin: 0 auto;
 				}
 
 					.wrapper.style1 input[type="submit"].alt:hover,
@@ -1054,7 +1056,7 @@
 			background-color: #4c4c4c;
 			color: rgba(255, 255, 255, 0.75);
 			background-attachment: fixed;
-			background-image: url("img/banner.jpg"), url("../../images/pic11.jpg"); /* not sure what second link does*/
+			background-image: url("/img/banner.jpg");
 			background-size: cover;
 		}
 
@@ -1246,6 +1248,7 @@
 					background-color: #51BAA4;
 					box-shadow: none;
 					color: #fff !important;
+					margin: 0 auto;
 				}
 
 					.wrapper.style3 input[type="submit"].special:hover,
@@ -1272,6 +1275,7 @@
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px #fff;
 					color: #fff !important;
+					margin: 0 auto;
 				}
 
 					.wrapper.style3 input[type="submit"].alt:hover,
@@ -1475,7 +1479,7 @@
 /* Banner */
 
 	#banner {
-		padding: 8em 0 2em 0;
+		padding: 8em 0 6em 0;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed;
@@ -1543,7 +1547,7 @@
 
 		#banner h2 {
 			font-size: 2.5em;
-			margin: 0 0 0.5em 0;
+			margin: 0 0 0 0;
 			padding: 0;
 		}
 
@@ -1725,7 +1729,6 @@
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
-			text-transform: uppercase;
 		}
 
 			#footer .copyright li {
