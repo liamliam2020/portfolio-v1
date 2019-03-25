@@ -50,39 +50,6 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Basic 
-
-	@-ms-viewport {
-		width: device-width;
-	}
-
-	body {
-		-ms-overflow-style: scrollbar;
-	}
-
-	@media screen and (max-width: 480px) {
-
-		html, body {
-			min-width: 320px;
-		}
-
-	}
-
-	body {
-		background: #393939;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-*/
 /* Type */
 
 	body {
@@ -135,14 +102,6 @@
 				font-size: 12pt;
 			}
 
-		}
-
-	a {
-		text-decoration: underline;
-	}
-
-		a:hover {
-			text-decoration: none;
 		}
 
 	strong, b {
@@ -386,7 +345,7 @@
 		ul li {
 			padding-left: 0.5em;
 		}
-
+/*
 		ul.alt {
 			list-style: none;
 			padding-left: 0;
@@ -541,7 +500,7 @@
 	ul.alt > li {
 		border-top-color: rgba(144, 144, 144, 0.25);
 	}
-
+*/
 /* Button */
 
 	input[type="submit"],
@@ -1098,11 +1057,9 @@
 			.wrapper {
 				padding: 6em 0 4em 0;
 			}
-
 				.wrapper > .inner {
 					width: 65em;
 				}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1110,11 +1067,9 @@
 			.wrapper {
 				padding: 5em 3em 3em 3em;
 			}
-
 				.wrapper > .inner {
 					width: 100%;
 				}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1122,7 +1077,6 @@
 			.wrapper {
 				padding: 3em 2em 1em 2em;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -1130,7 +1084,6 @@
 			.wrapper {
 				padding: 2em 1em 0.1em 1em;
 			}
-
 		}
 
 /* Header */
@@ -1208,36 +1161,12 @@
 				#header a[href="#nav"]:before {
 					margin: 0 0.5em 0 0;
 				}
-/*
-			#header a + a[href="#nav"]:last-child {
-				border-left: solid 1px transparent;
-				padding-left: 1.25em;
-				margin-left: 0.5em;
-			}
 
-		#header.alt {
-			background-color: transparent;
-			font-size: 1.25em;
-			padding: 1em 2em;
-			position: absolute;
-		}
-
-			#header.alt > h1 {
-				color: inherit;
-				position: static;
-				float: left;
-			}
-
-			#header.alt a[href="#nav"] {
-				margin-right: 0;
-			}
-*/
 	@media screen and (max-width: 980px) {
 
 		body {
 			padding-top: 44px;
 		}
-
 		#header {
 			height: 44px;
 			line-height: 44px;
@@ -1248,11 +1177,9 @@
 				#header > h1 a {
 					font-size: 1em;
 				}
-
 			#header.alt {
 				font-size: 1em;
 			}
-
 	}
 
 	@media screen and (max-width: 480px) {
@@ -1295,20 +1222,7 @@
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
 		}
-/*
-		#banner blockquote {
-			border-left-color: transparent;
-		}
 
-		#banner code {
-			background: rgba(255, 255, 255, 0.05);
-			border-color: transparent;
-		}
-
-		#banner hr {
-			border-bottom-color: transparent;
-		}
-*/
 		#banner input[type="submit"],
 		#banner input[type="reset"],
 		#banner input[type="button"],
@@ -1348,20 +1262,7 @@
 			font-size: 1em;
 			margin-bottom: 1em;
 		}
-/*
-		#banner .icon {
-			border-radius: 100%;
-			border: solid 2px #fff;
-			color: #fff;
-			display: inline-block;
-			font-size: 3em;
-			height: 2.25em;
-			line-height: 1.25em;
-			margin-bottom: 0.5em;
-			padding: 0.5em;
-			width: 2.25em;
-		}
-*/
+
 		@media screen and (max-width: 1680px) {
 
 			#banner {
@@ -1412,36 +1313,6 @@
 				}
 		}
 
-/* Main 
-
-	#main {
-		padding: 5em 0 3em 0;
-	}
-
-		@media screen and (max-width: 1280px) {
-
-			#main {
-				padding: 4em 0 2em 0;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			#main {
-				padding: 3em 0 1em 0;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			#main {
-				padding: 2em 0 0.1em 0;
-			}
-
-		}
-*/
 /* Footer */
 
 	#footer {
@@ -1449,11 +1320,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
 	}
-/*
-		#footer input, #footer select, #footer textarea {
-			color: #fff;
-		}
-*/
+
 		#footer a {
 			color: #51BAA4;
 		}
@@ -1465,20 +1332,7 @@
 		#footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6 {
 			color: #fff;
 		}
-/*
-		#footer blockquote {
-			border-left-color: transparent;
-		}
 
-		#footer code {
-			background: rgba(255, 255, 255, 0.05);
-			border-color: transparent;
-		}
-
-		#footer hr {
-			border-bottom-color: transparent;
-		}
-*/
 		#footer a {
 			-moz-transition: color 0.2s ease-in-out;
 			-webkit-transition: color 0.2s ease-in-out;
@@ -1525,7 +1379,6 @@
 				padding: 5em 0 3em 0;
 				width: 100%;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1533,12 +1386,10 @@
 			#footer .inner {
 				padding: 3em 0 1em 0;
 			}
-
 			#footer .copyright li {
 				display: block;
 				margin: 0;
 			}
-
 			#footer ul.icons li {
 				font-size: 0.9em;
 			}
