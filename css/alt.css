@@ -50,7 +50,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
-/* Basic */
+/* Basic 
 
 	@-ms-viewport {
 		width: device-width;
@@ -82,7 +82,7 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
+*/
 /* Type */
 
 	body {
@@ -191,7 +191,7 @@
 		font-size: 0.7em;
 		line-height: 1.5em;
 	}
-
+/*
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -262,7 +262,7 @@
 	input, select, textarea {
 		color: #25383B;
 	}
-
+*/
 	a {
 		color: #64AD64; /* Link Color*/
 	}
@@ -274,7 +274,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #25383B;
 	}
-
+/*
 	blockquote {
 		border-left-color: rgba(144, 144, 144, 0.25);
 	}
@@ -287,7 +287,7 @@
 	hr {
 		border-bottom-color: rgba(144, 144, 144, 0.25);
 	}
-
+*/
 /* Section/Article */
 
 	section.special, article.special, header.special {
@@ -997,7 +997,7 @@
 					background-color: #484848;
 				}
 
-				.wrapper.style1 input[type="submit"].special,
+/*				.wrapper.style1 input[type="submit"].special,
 				.wrapper.style1 input[type="reset"].special,
 				.wrapper.style1 input[type="button"].special,
 				.wrapper.style1 button.special,
@@ -1050,7 +1050,7 @@
 					.wrapper.style1 .button.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
-
+*/
 		.wrapper.style3 {
 			background-color: #4c4c4c;
 			color: rgba(255, 255, 255, 0.75);
@@ -1203,7 +1203,7 @@
 			.wrapper.style3 table.alt tbody tr td {
 				border-color: transparent;
 			}
-
+/*
 			.wrapper.style3 input[type="submit"],
 			.wrapper.style3 input[type="reset"],
 			.wrapper.style3 input[type="button"],
@@ -1265,7 +1265,7 @@
 					.wrapper.style3 .button.special:active {
 						background-color: #45ad97;
 					}
-
+*/
 				.wrapper.style3 input[type="submit"].alt,
 				.wrapper.style3 input[type="reset"].alt,
 				.wrapper.style3 input[type="button"].alt,
