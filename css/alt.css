@@ -6,7 +6,7 @@
 	Retrospect by TEMPLATED
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
-	Updated and Simplified for use by Liam Rethore
+	Significantly modified and simplified for use by Liam Rethore
 */
 
 /* Reset */
@@ -69,7 +69,6 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -77,7 +76,6 @@
 			body, input, select, textarea {
 				font-size: 11pt;
 			}
-
 		}
 
 		@media screen and (max-width: 980px) {
@@ -85,7 +83,6 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -93,7 +90,6 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -101,7 +97,6 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 		}
 
 	strong, b {
@@ -214,7 +209,6 @@
 		header.narrow {
 			max-width: 75%;
 		}
-
 	}
 
 	@media screen and (max-width: 980px) {
@@ -222,15 +216,12 @@
 		header.narrow {
 			max-width: 100%;
 		}
-
 		header.major {
 			margin-bottom: 2em;
 		}
-
 			header.major h2 {
 				font-size: 2em;
 			}
-
 	}
 
 	@media screen and (max-width: 736px) {
@@ -238,11 +229,9 @@
 		header.major h2 {
 			font-size: 1.5em;
 		}
-
 		header.major p {
 			font-size: 1em;
 		}
-
 	}
 
 	header p {
@@ -559,48 +548,7 @@
 			background-color: #d9d9d9;
 			color: #777;
 		}
-/*
-			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
-				color: #555;
-			}
 
-			.wrapper.style1 a {
-				color: #51BAA4;
-			}
-
-			.wrapper.style1 strong, .wrapper.style1 b {
-				color: #555;
-			}
-
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
-				color: #555;
-			}
-
-			.wrapper.style1 blockquote {
-				border-left-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 code {
-				background: #d9d9d9;
-				border-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 hr {
-				border-bottom-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 header p {
-				color: #555;
-			}
-*/
-			.wrapper.style1 .feature {
-				background-color: #d9d9d9;
-			}
-/*
-			.wrapper.style1 label {
-				color: #555;
-			}
-*/
 			.wrapper.style1 input[type="text"],
 			.wrapper.style1 input[type="password"],
 			.wrapper.style1 input[type="email"],
@@ -610,76 +558,7 @@
 				border-color: rgba(144, 144, 144, 0.25);
 				color: inherit;
 			}
-/*
-				.wrapper.style1 input[type="text"]:focus,
-				.wrapper.style1 input[type="password"]:focus,
-				.wrapper.style1 input[type="email"]:focus,
-				.wrapper.style1 select:focus,
-				.wrapper.style1 textarea:focus {
-					border-color: #51BAA4;
-					box-shadow: 0 0 0 1px #51BAA4;
-				}
 
-			.wrapper.style1 .select-wrapper:before {
-				color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 ::-webkit-input-placeholder {
-				color: #bbb !important;
-			}
-
-			.wrapper.style1 :-moz-placeholder {
-				color: #bbb !important;
-			}
-
-			.wrapper.style1 ::-moz-placeholder {
-				color: #bbb !important;
-			}
-
-			.wrapper.style1 :-ms-input-placeholder {
-				color: #bbb !important;
-			}
-
-			.wrapper.style1 .formerize-placeholder {
-				color: #bbb !important;
-			}
-
-			.wrapper.style1 form.alt input[type="text"],
-			.wrapper.style1 form.alt input[type="password"],
-			.wrapper.style1 form.alt input[type="email"],
-			.wrapper.style1 form.alt select,
-			.wrapper.style1 form.alt textarea {
-				background-color: transparent;
-			}
-
-			.wrapper.style1 ul.alt > li {
-				border-top-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 table tbody tr {
-				border-color: rgba(144, 144, 144, 0.25);
-			}
-
-				.wrapper.style1 table tbody tr:nth-child(2n + 1) {
-					background-color: #fff;
-				}
-
-			.wrapper.style1 table th {
-				color: #555;
-			}
-
-			.wrapper.style1 table thead {
-				border-bottom-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 table tfoot {
-				border-top-color: rgba(144, 144, 144, 0.25);
-			}
-
-			.wrapper.style1 table.alt tbody tr td {
-				border-color: rgba(144, 144, 144, 0.25);
-			}
-*/
 			.wrapper.style1 input[type="submit"],
 			.wrapper.style1 input[type="reset"],
 			.wrapper.style1 input[type="button"],
@@ -722,152 +601,12 @@
 			background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("/img/bannerBottom.jpg");
 			background-size: cover;
 		}
-/*
-			.wrapper.style3 input, .wrapper.style3 select, .wrapper.style3 textarea {
-				color: #fff;
-			}
 
-			.wrapper.style3 a {
-				color: #51BAA4;
-			}
-
-			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #fff;
-			}
-*/
 			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
 				color: #fff;
 				text-align: center;
 			}
-/*
-			.wrapper.style3 blockquote {
-				border-left-color: transparent;
-			}
 
-			.wrapper.style3 code {
-				background: rgba(255, 255, 255, 0.05);
-				border-color: transparent;
-			}
-
-			.wrapper.style3 hr {
-				border-bottom-color: transparent;
-			}
-
-			.wrapper.style3 header p {
-				color: #fff;
-			}
-
-			.wrapper.style3 .feature {
-				background-color: rgba(255, 255, 255, 0.05);
-			}
-
-			.wrapper.style3 label {
-				color: #fff;
-			}
-
-			.wrapper.style3 input[type="text"],
-			.wrapper.style3 input[type="password"],
-			.wrapper.style3 input[type="email"],
-			.wrapper.style3 select,
-			.wrapper.style3 textarea {
-				background-color: rgba(255, 255, 255, 0.05);
-				border-color: transparent;
-				color: inherit;
-			}
-
-				.wrapper.style3 input[type="text"]:focus,
-				.wrapper.style3 input[type="password"]:focus,
-				.wrapper.style3 input[type="email"]:focus,
-				.wrapper.style3 select:focus,
-				.wrapper.style3 textarea:focus {
-					border-color: #51BAA4;
-					box-shadow: 0 0 0 1px #51BAA4;
-				}
-
-			.wrapper.style3 .select-wrapper:before {
-				color: transparent;
-			}
-
-			.wrapper.style3 input[type="checkbox"] + label,
-			.wrapper.style3 input[type="radio"] + label {
-				color: rgba(255, 255, 255, 0.75);
-			}
-
-				.wrapper.style3 input[type="checkbox"] + label:before,
-				.wrapper.style3 input[type="radio"] + label:before {
-					background-color: rgba(255, 255, 255, 0.05);
-					border-color: transparent;
-				}
-
-			.wrapper.style3 input[type="checkbox"]:checked + label:before,
-			.wrapper.style3 input[type="radio"]:checked + label:before {
-				background-color: rgba(255, 255, 255, 0.05);
-				border-color: #51BAA4;
-				color: #fff;
-			}
-
-			.wrapper.style3 input[type="checkbox"]:focus + label:before,
-			.wrapper.style3 input[type="radio"]:focus + label:before {
-				border-color: #51BAA4;
-				box-shadow: 0 0 0 1px #51BAA4;
-			}
-
-			.wrapper.style3 ::-webkit-input-placeholder {
-				color: #a5a9ad !important;
-			}
-
-			.wrapper.style3 :-moz-placeholder {
-				color: #a5a9ad !important;
-			}
-
-			.wrapper.style3 ::-moz-placeholder {
-				color: #a5a9ad !important;
-			}
-
-			.wrapper.style3 :-ms-input-placeholder {
-				color: #a5a9ad !important;
-			}
-
-			.wrapper.style3 .formerize-placeholder {
-				color: #a5a9ad !important;
-			}
-
-			.wrapper.style3 form.alt input[type="text"],
-			.wrapper.style3 form.alt input[type="password"],
-			.wrapper.style3 form.alt input[type="email"],
-			.wrapper.style3 form.alt select,
-			.wrapper.style3 form.alt textarea {
-				background-color: transparent;
-			}
-
-			.wrapper.style3 ul.alt > li {
-				border-top-color: transparent;
-			}
-
-			.wrapper.style3 table tbody tr {
-				border-color: transparent;
-			}
-
-				.wrapper.style3 table tbody tr:nth-child(2n + 1) {
-					background-color: rgba(255, 255, 255, 0.05);
-				}
-
-			.wrapper.style3 table th {
-				color: #fff;
-			}
-
-			.wrapper.style3 table thead {
-				border-bottom-color: transparent;
-			}
-
-			.wrapper.style3 table tfoot {
-				border-top-color: transparent;
-			}
-
-			.wrapper.style3 table.alt tbody tr td {
-				border-color: transparent;
-			}
-*/
 				.wrapper.style3 input[type="submit"].alt,
 				.wrapper.style3 input[type="reset"].alt,
 				.wrapper.style3 input[type="button"].alt,
