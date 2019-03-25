@@ -1501,7 +1501,6 @@
 
 		#banner h1, #banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
-			padding-bottom: 0.25em;
 		}
 
 		#banner blockquote {
@@ -1547,7 +1546,7 @@
 
 		#banner h2 {
 			font-size: 2.5em;
-			margin: 0 0 0 0;
+			margin: 0 0 0.25em 0;
 			padding: 0;
 		}
 
