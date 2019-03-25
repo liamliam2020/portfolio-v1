@@ -839,7 +839,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #c9c9c9;
+			background-color: #d9d9d9;
 			color: #777;
 		}
 
@@ -857,7 +857,6 @@
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6 {
 				color: #555;
-				text-align: center;
 			}
 
 			.wrapper.style1 blockquote {
