@@ -286,7 +286,7 @@
 			background-color: black;
 		  }
 
-		.content:hover .imgoverlay {
+		.imgcontent:hover .imgoverlay {
 			opacity: 0.75;
 		  }
 
