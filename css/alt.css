@@ -53,7 +53,7 @@
 /* Type */
 
 	body {
-		background-color: #393939;
+		background-color: #d9d9d9;
 		color: #777;
 	}
 
@@ -548,17 +548,7 @@
 			background-color: #d9d9d9;
 			color: #777;
 		}
-/*
-			.wrapper.style1 input[type="text"],
-			.wrapper.style1 input[type="password"],
-			.wrapper.style1 input[type="email"],
-			.wrapper.style1 select,
-			.wrapper.style1 textarea {
-				/* background-color: #d9d9d9;
-				border-color: rgba(144, 144, 144, 0.25);
-				color: inherit;
-			}
-*/
+
 			.wrapper.style1 input[type="submit"],
 			.wrapper.style1 input[type="reset"],
 			.wrapper.style1 input[type="button"],
