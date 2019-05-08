@@ -276,32 +276,41 @@
 		.imgadj {
 			position: relative;
 			width: 50%;
-			max-width: 300px;
 		}
 
 		.imgresspond {
+			opacity: 1;
 			display: block;
 			width: 100%;
 			height: auto;
+			transition: 0.5 ease;
+			backface-visibility: hidden;
 		}
 
-		.overlay {
-			position: absolute;
-			bottom: 0;
-			background: rgb(0,0,0);
-			background: rgba(0,0,0,0.5);
-			color: #f1f1f1;
-			width: 100%;
-			transition: 0.5s ease;
+		.middle {
+			transition: .5s ease;
 			opacity: 0;
-			color: white;
-			font-size: 20px;
-			padding: 20px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
 			text-align: center;
 		}
 
-		.imgadj:hover .overlay {
+		.imgadj:hover .imgresspond {
+			opacity: 0.3;
+		}
+
+		.imgadj:hover .middle {
 			opacity: 1;
+		}
+
+		.text {
+			color:white;
+			font-size: 16px;
+			padding: 16px 32px;
+
 		}
 
 		.image.left, .image.right {
