@@ -273,34 +273,36 @@
 			display: block;
 		}
 
-		.imgoverlay {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			height: 100%;
+		.imgadj {
+			position: relative;
+			width: 50%;
+			max-width: 300px;
+		}
+
+		.imgresspond {
+			display: block;
 			width: 100%;
+			height: auto;
+		}
+
+		.overlay {
+			position: absolute;
+			bottom: 0;
+			background: rgb(0,0,0);
+			background: rgba(0,0,0,0.5);
+			color: #f1f1f1;
+			width: 100%;
+			transition: 0.5s ease;
 			opacity: 0;
-			transition: .5s ease;
-			background-color: black;
-		  }
-
-		.imgcont:hover .imgoverlay {
-			opacity: 1;
-		  }
-
-		.imgtext {
 			color: white;
 			font-size: 20px;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			-webkit-transform: translate(-50%, -50%);
-			-ms-transform: translate(-50%, -50%);
-			transform: translate(-50%, -50%);
+			padding: 20px;
 			text-align: center;
-		  }
+		}
+
+		.imgadj:hover .overlay {
+			opacity: 1;
+		}
 
 		.image.left, .image.right {
 			max-width: 40%;
