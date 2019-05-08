@@ -148,6 +148,7 @@
 
 	a {
 		color: black; /* Link Color*/
+		text-decoration: none;
 	}
 
 	strong, b {
