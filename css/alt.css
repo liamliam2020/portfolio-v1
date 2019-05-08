@@ -147,7 +147,7 @@
 	}
 
 	a {
-		color: #64AD64; /* Link Color*/
+		color: black; /* Link Color*/
 	}
 
 	strong, b {
@@ -307,8 +307,7 @@
 		}
 
 		.text {
-			color:white;
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			color:black;
 			font-size: 20px;
 			padding: 16px 32px;
 
