@@ -582,7 +582,7 @@
 		min-height: 100%;
 		height: auto !important;
 		height: 100%;
-		margin: 0 auto -142px;
+		padding-bottom: 150px;
 		padding: 8em 0 6em 0;
 		position: relative;
 	}
@@ -971,15 +971,13 @@
 /* Footer */
 
 	#footer {
+		position: relative;
+		margin-top: -150px;
 		width: 100%;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
-		height: 142px;
-	}
-
-	#push {
-		height: 142px;
+		height: 150px;
 	}
 
 		#footer a {
@@ -1062,3 +1060,15 @@
 				padding: 2em 0 0.1em 0;
 			}
 		}
+
+	/* To help with spacing*/
+	.clearfix:after {content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;}
+	.clearfix {display: inline-block;}
+	/* Hides from IE-mac \*/
+	* html .clearfix { height: 1%;}
+	.clearfix {display: block;}
+	/* End hide from IE-mac */
