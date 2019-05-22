@@ -728,6 +728,8 @@
 	}
 
 	#typed-image {
+		display: block;
+		margin: 0 auto;
 		border-radius: 0;
 		border: 0;
 		max-width: 100%;
@@ -965,6 +967,9 @@
 /* Footer */
 
 	#footer {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
