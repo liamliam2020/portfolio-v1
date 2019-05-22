@@ -702,6 +702,28 @@
 			}
 		}
 
+/* Large Typed Pages */
+
+	#typed {
+		text-align: left;
+		line-height: 30px;
+		font-size: 18px;
+	}
+
+	#typed-title {
+		padding-top: 15px;
+		text-align: center;
+	}
+
+	#typed-body {
+		padding-top: -10px;
+		text-align: left;
+	}
+
+	#typed-next-post {
+		text-align: center;
+	}
+
 /* Header */
 
 	body {
