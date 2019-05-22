@@ -579,10 +579,6 @@
 /* Wrapper */
 
 	.wrapper {
-		min-height: 100%;
-		height: auto !important;
-		height: 100%;
-		padding-bottom: 150px;
 		padding: 8em 0 6em 0;
 		position: relative;
 	}
@@ -972,8 +968,6 @@
 
 	#footer {
 		position: relative;
-		margin-top: -150px;
-		width: 100%;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
@@ -1060,15 +1054,3 @@
 				padding: 2em 0 0.1em 0;
 			}
 		}
-
-	/* To help with spacing*/
-	.clearfix:after {content: ".";
-		display: block;
-		height: 0;
-		clear: both;
-		visibility: hidden;}
-	.clearfix {display: inline-block;}
-	/* Hides from IE-mac \*/
-	* html .clearfix { height: 1%;}
-	.clearfix {display: block;}
-	/* End hide from IE-mac */
