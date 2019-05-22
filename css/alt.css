@@ -716,11 +716,13 @@
 	}
 
 	#typed-body {
+		text-align: justify;
+  		text-justify: inter-word;
 		padding-top: -10px;
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
-		width: 50%;
+		width: 70%;
 	}
 
 	#typed-next-post {
@@ -731,7 +733,7 @@
 		border-radius: 0;
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position: center;
 		margin-left: auto;
   		margin-right: auto;
   		width: 50%;
