@@ -717,12 +717,24 @@
 
 	#typed-body {
 		padding-top: -10px;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
 		text-align: left;
+		width: 50%;
 	}
 
 	#typed-next-post {
 		text-align: center;
+	}
+
+	#typed-image {
+		border-radius: 0;
+		border: 0;
+		display: inline-block;
+		position: relative;
+		margin-left: auto;
+  		margin-right: auto;
+  		width: 50%;
 	}
 
 /* Header */
