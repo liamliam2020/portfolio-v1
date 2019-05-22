@@ -722,7 +722,7 @@
 		margin-left: auto;
 		margin-right: auto;
 		text-align: left;
-		width: 70%;
+		width: 60%;
 	}
 
 	#typed-next-post {
@@ -733,10 +733,9 @@
 		border-radius: 0;
 		border: 0;
 		display: inline-block;
-		position: center;
+		position: relative;
 		margin-left: auto;
   		margin-right: auto;
-  		width: 50%;
 	}
 
 /* Header */
