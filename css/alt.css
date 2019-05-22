@@ -579,6 +579,10 @@
 /* Wrapper */
 
 	.wrapper {
+		min-height: 100%;
+		height: auto !important;
+		height: 100%;
+		margin: 0 auto -142px;
 		padding: 8em 0 6em 0;
 		position: relative;
 	}
@@ -967,12 +971,15 @@
 /* Footer */
 
 	#footer {
-		position: absolute;
-		bottom: 0;
 		width: 100%;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
+		height: 142px;
+	}
+
+	#push {
+		height: 142px;
 	}
 
 		#footer a {
