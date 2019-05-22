@@ -717,7 +717,6 @@
 
 	#typed-body {
 		text-align: justify;
-  		text-justify: inter-word;
 		padding-top: -10px;
 		margin-left: auto;
 		margin-right: auto;
@@ -732,8 +731,8 @@
 	#typed-image {
 		border-radius: 0;
 		border: 0;
-		display: inline-block;
-		position: relative;
+		/*display: inline-block;
+		position: relative;*/
 		margin-left: auto;
   		margin-right: auto;
 	}
