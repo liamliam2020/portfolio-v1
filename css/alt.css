@@ -145,6 +145,12 @@ body {
   -webkit-text-size-adjust: none;
 }
 
+/* Smash footer to bottom of page */
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
 /* Type */
 
 body {
@@ -1092,7 +1098,7 @@ body.landing {
 /* Footer */
 
 #footer {
-  position: relative;
+  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #393939;
