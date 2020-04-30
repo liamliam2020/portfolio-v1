@@ -146,9 +146,13 @@ body {
 }
 
 /* Smash footer to bottom of page */
-#container {
-  min-height: 100%;
+#page-container {
+  min-height: 100vh;
   position: relative;
+}
+
+#content-wrapper {
+  padding-bottom: 2.5rem;
 }
 
 /* Type */
@@ -1098,14 +1102,13 @@ body.landing {
 /* Footer */
 
 #footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: #393939;
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
-  height: 120px;
+  height: 2.5rem;
 }
 
 #footer a {
