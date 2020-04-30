@@ -967,11 +967,11 @@
 /* Footer */
 
 	#footer {
-		position: relative;
+		position: absolute;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
-		height: 150px;
+		height: 60px;
 	}
 
 		#footer a {
