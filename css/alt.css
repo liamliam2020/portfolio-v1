@@ -968,6 +968,8 @@
 
 	#footer {
 		position: absolute;
+		bottom: 0;
+		width: 100%;
 		background-color: #393939;
 		color: rgba(255, 255, 255, 0.75);
 		text-align: center;
