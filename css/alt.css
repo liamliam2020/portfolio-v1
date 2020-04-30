@@ -96,6 +96,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
+  height: 100% /*NEW THING */
   font: helvetica;
   vertical-align: baseline;
 }
@@ -115,6 +116,8 @@ section {
 }
 
 body {
+	display: flex; /* NEW THING*/
+	flex-direction: column;
   line-height: 1;
 }
 
@@ -146,13 +149,8 @@ body {
 }
 
 /* Smash footer to bottom of page */
-#page-container {
-  min-height: 100vh;
-  position: relative;
-}
-
 #content-wrapper {
-  padding-bottom: 2.5rem;
+  flex: 1 0 auto;
 }
 
 /* Type */
@@ -1102,13 +1100,13 @@ body.landing {
 /* Footer */
 
 #footer {
-  position: absolute;
-  bottom: 0;
+  flex-shrink: 0;
+  /* bottom: 0; */
   width: 100%;
   background-color: #393939;
   color: rgba(255, 255, 255, 0.75);
   text-align: center;
-  height: 2.5rem;
+  /* height: 2.5rem; */
 }
 
 #footer a {
