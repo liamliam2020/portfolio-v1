@@ -1,0 +1,14 @@
+.Layout {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  background: #000000;
+  color: white;
+
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}
