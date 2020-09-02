@@ -1,0 +1,33 @@
+.Toolbar {
+  position: sticky;
+  width: 95%;
+  height: 40px;
+  background: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.NavLink {
+  display: flex;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.NavItem a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+}
+
+.Toolbar :hover {
+  color: #ffff88;
+}
