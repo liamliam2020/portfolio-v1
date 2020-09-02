@@ -13,7 +13,7 @@ const Main = (props) => (
           title="Sorting Algorithm Visualizer"
           desc="Visual implementation of Merge Sort, Bubble Sort, Quick Sort, and Shell Sort."
           tech="JavaScript (ES6), React.js, CSS, Git"
-          route="https://github.com/liamliam2020/sorting-visualizer"
+          route="https://liamliam2020.github.io/sorting-visualizer/"
         />
         <hr />
       </li>
